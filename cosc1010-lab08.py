@@ -15,14 +15,13 @@
 # Floats should only have one decimal point in them 
 
 def formating(answer):
-    if "." in answer:
-        float(answer)
-        if float(answer) 
+    try:
+        if "." in answer:
             print(float(answer))
         else:
-            print(f"false")
-    else:
-        print(answer)
+            print(answer)
+    except:
+        print(f"false")
 
 formating(input(f"Input numbers: "))
 
@@ -49,9 +48,11 @@ print("*" * 75)
 # Remember all inputs are strings, but the function needs ints or floats
 # Call your function and print the resulting list
 
+a (0)
+b (0)
+c (0)
+d (0)
 
-    
-print("*" * 75)
 
 
 # Write a function to solve the quadratic formula
