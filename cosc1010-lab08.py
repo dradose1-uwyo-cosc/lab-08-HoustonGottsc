@@ -14,6 +14,17 @@
 # Other wise return the converted int or float 
 # Floats should only have one decimal point in them 
 
+def formating(answer):
+    if "." in answer:
+        float(answer)
+        if float(answer) 
+            print(float(answer))
+        else:
+            print(f"false")
+    else:
+        print(answer)
+
+formating(input(f"Input numbers: "))
 
 print("*" * 75)
 
@@ -38,6 +49,8 @@ print("*" * 75)
 # Remember all inputs are strings, but the function needs ints or floats
 # Call your function and print the resulting list
 
+
+    
 print("*" * 75)
 
 
