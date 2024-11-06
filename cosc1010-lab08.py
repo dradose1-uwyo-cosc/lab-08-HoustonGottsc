@@ -47,12 +47,18 @@ print("*" * 75)
 # Exit on the word exit
 # Remember all inputs are strings, but the function needs ints or floats
 # Call your function and print the resulting list
+m = ""
+b = ""
+au = ""
+al = ""
+def pointslope(m, b, au, al):
+    if al != au and al < au:
+        print(f"the point-slope answer for the x value: {al} is: {al} * {m} + {b}")
+        al += 1
+    else:
+        print(f"Lower bound is larger than upper bound")
 
-a (0)
-b (0)
-c (0)
-d (0)
-
+print(pointslope(input("m: "), input("b: "), input("au: "), input("al: ")))
 
 
 # Write a function to solve the quadratic formula
